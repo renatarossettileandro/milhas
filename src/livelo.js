@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React, { useState, useEffect } from 'react';
 import './App.css';
 import './App.js';
@@ -64,7 +65,6 @@ export const Calc = (props) => {
         <input type='submit' id='submit' value='Cadastrar' className='formbutton' />
       </form>
 
-       {/* eslint-disable-next-line no-unused-vars */}
        { isNaN(media) ?
           (<div>
              
