@@ -64,7 +64,7 @@ export const Calc = (props) => {
         <input type='submit' id='submit' value='Cadastrar' className='formbutton' />
       </form>
 
-      
+       {/* eslint-disable-next-line no-unused-vars */}
        { isNaN(media) ?
           (<div>
              
